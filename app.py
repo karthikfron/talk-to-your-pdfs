@@ -90,7 +90,8 @@ def main():
         st.session_state.chat_history = None
   
 
-    st.header("Chat with multiplr PDFs :bike:")
+    st.title("Chat with multiple PDFs 💬")
+    st.caption("🚀 A Streamlit chatbot powered by Gemini")
     user_question= st.text_input("Ask a question about your Documents:")
 
     if user_question:
